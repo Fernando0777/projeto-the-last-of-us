@@ -103,6 +103,14 @@ main:after{
     display: block;
 }
 
+.descricao{
+    display: none;
+}
+
+.descricao.txtativo{
+    display: block;
+}
+
 @keyframes mudarImagem{
     from{
         opacity: 0.85;
